@@ -1,10 +1,28 @@
 header {
-    background: red;
+    background: white;
 }
 
-main {
+body {
+    font-family: "aleo", "serif"
+}
+
+article {
     background: orange;
 }
+
+article h1 {
+    font-size: 42px;
+}
+
+article span {
+    font-size: 20px;
+    color: white;
+}
+
+
+/* main {
+    background: orange;
+} */
 
 footer {
     background: green;
@@ -17,6 +35,10 @@ footer {
     justify-content: center;
 }
 
+.heading {
+    font-size: 23px;
+}
+
 .card {
 text-align: center;
 }
@@ -24,4 +46,8 @@ text-align: center;
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.hero img {
+    width: 100%;
 }
