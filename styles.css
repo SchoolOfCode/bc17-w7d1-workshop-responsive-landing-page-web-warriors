@@ -1,0 +1,27 @@
+header {
+    background: red;
+}
+
+main {
+    background: orange;
+}
+
+footer {
+    background: green;
+}
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
