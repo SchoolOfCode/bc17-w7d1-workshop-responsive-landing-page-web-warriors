@@ -69,3 +69,20 @@ footer ul {
     list-style-type: none;
     padding: 0;
 }
+
+@media screen and (min-width: 768px) {
+    .how-it-works {
+        flex-direction: row;
+    }
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+  }
+
+  .how-it-works-header {
+    text-align: center;
+  }
